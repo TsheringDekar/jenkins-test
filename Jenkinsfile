@@ -1,4 +1,4 @@
-git clone https://github.com/yourusername/jenkins-test.git
+git clone https://github.com/TsheringDekar/jenkins-test
 cd jenkins-test
 echo "pipeline { agent any; stages { stage('Hello') { steps { echo 'Hi' } } } }" > Jenkinsfile
 git add Jenkinsfile
